@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a281b1b0-a751-4f80-9350-10c593f06c1c">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="68030bf0-1dfe-43ee-9976-2d23286c2d4e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="ac1f901c-83b9-420b-b339-ee22ca970237"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="725a456e-59d8-4430-bd78-90f8483d8be6"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="230cf5fb-a2df-4ab1-bbca-5e017fd27114"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="77c03521-60b9-4af1-a4cf-4cd8f754690b"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e220507b-1111-470c-b115-9976fd65cedc"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="9b8ba13f-b1e9-4519-99b7-0acf4c27770b"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>v 1.0.0</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Фреймворк автоматического создания данных (АСД) в режиме многопоточности</value>
+  </detailedInformation>
+  <copyright>
+    <key>ru</key>
+    <value>Apache 2.0 by Cinimex</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="6a0e8a80-d58c-4580-902c-80fb95e59853">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.асд_ПодсистемаАСД</subsystems>
+  <commonPictures>CommonPicture.асд_Подсистема</commonPictures>
+  <roles>Role.асд_ДоступКПодсистеме</roles>
+  <commonModules>CommonModule.асд_ОсновнойМодульСервер</commonModules>
+  <commonModules>CommonModule.асд_ПодпискиНаСобытия</commonModules>
+  <eventSubscriptions>EventSubscription.асд_ОбработкаПроведенияДокумента</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.асд_ОбработкаУдаленияПроведенияДокумента</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.асд_ПриЗаписиСправочника</eventSubscriptions>
+  <constants>Constant.асд_ИспользоватьАСД</constants>
+  <catalogs>Catalog.асд_Правила</catalogs>
+  <enums>Enum.асд_ДействияСПодчиненнымиОбъектами</enums>
+  <informationRegisters>InformationRegister.асд_ЖурналОшибок</informationRegisters>
+  <informationRegisters>InformationRegister.асд_СвязанныеОбъекты</informationRegisters>
+</mdclass:Configuration>

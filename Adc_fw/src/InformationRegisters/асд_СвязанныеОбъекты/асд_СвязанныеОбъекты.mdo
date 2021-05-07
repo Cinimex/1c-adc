@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adccd0c6-9d36-46d7-b9da-caea1fbd0ebb">
+  <producedTypes>
+    <selectionType typeId="95384bac-5f98-4fee-aa0c-cc9a6037a7dd" valueTypeId="299fe793-200a-49df-bfe9-23dadb5c522b"/>
+    <listType typeId="5a283aef-771f-4a0e-b632-6fdc42ade059" valueTypeId="d64ff1e3-2ace-4867-b4b3-45cc895c8e93"/>
+    <managerType typeId="24fd0a28-5f3a-45fe-970c-af7f27f7a9a1" valueTypeId="b12e1207-32d0-4c9d-b05f-4272e93d562b"/>
+    <recordSetType typeId="12233d20-9bac-4a7a-8838-3576a8da5fd6" valueTypeId="2fdf5d0e-284c-408b-86f8-4f9ebaae69fc"/>
+    <recordKeyType typeId="fc1e77a1-d7e2-42b1-ac9a-0281ee25e753" valueTypeId="b5ac29df-42b7-4732-95fe-66d69d34f3e4"/>
+    <recordType typeId="db8f7aac-9510-4d8c-91be-967dba99f997" valueTypeId="e1b26e98-39e8-4989-9ccc-bbd21588d160"/>
+    <recordManagerType typeId="7ea113aa-fbe4-49a2-b1bc-35b3ad007457" valueTypeId="47e2da3b-581a-47e5-b2a7-1a669d0513aa"/>
+  </producedTypes>
+  <name>асд_СвязанныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные объекты (АСД)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.асд_СвязанныеОбъекты.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.асд_СвязанныеОбъекты.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="c82fcde7-4204-4a03-a97c-b6c60fdf9620">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="3c34d16d-a4b9-4e57-88bf-51ede4fc156a">
+    <name>ОбъектОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="9b4e2577-4962-43cc-83aa-eb5face47307">
+    <name>ОбъектРезультат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект результат</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="d564ece2-cec5-45b4-9271-9d4c6b2796ee">
+    <name>Правило</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.асд_Правила</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="ce7d2735-b46d-426d-8fd1-64e6a8dee40c">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7ea5f635-dfb8-4323-986d-e39aa25f7380">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

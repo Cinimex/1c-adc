@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6d14aab-2233-4539-93f1-7ad93028447a">
+  <producedTypes>
+    <managerType typeId="ab1482d8-03c4-4b88-8549-7080bc0b5ddf" valueTypeId="7645cdd3-a4bb-47c7-b179-68c2b35f58fd"/>
+    <valueManagerType typeId="982eaa2c-797f-4c16-a211-63a65c8ab467" valueTypeId="abca10c5-c8c1-4ac1-9830-eddcab8a5b3c"/>
+    <valueKeyType typeId="68a2c5b5-8d04-4d4e-8282-fcd4c6e30e6a" valueTypeId="aa33d11c-c9ff-497d-a770-a94512e10b6b"/>
+  </producedTypes>
+  <name>асд_ИспользоватьАСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать подсистему АСД</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

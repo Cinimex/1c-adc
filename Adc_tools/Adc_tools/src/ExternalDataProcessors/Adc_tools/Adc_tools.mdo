@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4ca6692-9b6d-4b82-bf42-d8b9042efdd1">
+  <producedTypes>
+    <objectType typeId="11581830-bb09-44a0-8ef0-820a5ca85d1d" valueTypeId="2a0123a4-b439-43ec-b76c-3b0915042845"/>
+  </producedTypes>
+  <name>Adc_tools</name>
+  <synonym>
+    <key>ru</key>
+    <value>Adc tools</value>
+  </synonym>
+  <comment>v_1.0.0</comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="db826691-2d34-4c2a-977a-bfd91b6209d7"/>
+  <defaultForm>ExternalDataProcessor.Adc_tools.Form.Форма</defaultForm>
+  <attributes uuid="4763be71-64da-484a-9aa7-39259d6f0959">
+    <name>ОбъектОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1fcc392a-1e2c-4c9f-8b10-3909a7ea6a01">
+    <name>Правило</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2830d3eb-94e4-4d8d-8e47-09849f97ed2e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>

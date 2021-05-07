@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99fc2450-05de-4fa7-84a4-07ca5dcd0337">
+  <name>асд_ДоступКПодсистеме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступ к подсистеме (АСД)</value>
+  </synonym>
+</mdclass:Role>

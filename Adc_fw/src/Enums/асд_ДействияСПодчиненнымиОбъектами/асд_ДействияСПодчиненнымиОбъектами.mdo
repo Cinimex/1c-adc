@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65afc374-4d31-4911-8015-86afd82e44d2">
+  <producedTypes>
+    <refType typeId="81548e9e-216d-42b0-86a2-c9a874764833" valueTypeId="ede5a038-9b60-47f6-9f4e-abbba3c73f0a"/>
+    <listType typeId="49d04ac9-3d74-4efa-9a77-8e1871a6acfb" valueTypeId="0bca4c5a-0523-4f5f-93ea-c6489d93e78a"/>
+    <managerType typeId="db81b972-faf3-492a-aad1-596d6e660d76" valueTypeId="90cd8222-6880-4569-80e9-424d063049b6"/>
+  </producedTypes>
+  <name>асд_ДействияСПодчиненнымиОбъектами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия с подчиненными объектами (АСД)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cc6d1e53-8009-4ba0-8b37-9f2f382f9e42">
+    <name>ОставитьКакЕсть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оставить как есть</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c8e15d96-5f22-4fa2-a187-5525416e4eae">
+    <name>ОтменитьПроведение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменить проведение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38d3809e-5084-4a40-9733-adb1d2b81878">
+    <name>ОтменитьПроведениеДерева</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменить проведение дерева</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

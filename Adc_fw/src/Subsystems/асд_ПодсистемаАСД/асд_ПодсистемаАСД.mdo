@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f8a09dd-30b3-462f-8329-2d12d8286db1">
+  <name>асд_ПодсистемаАСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>АСД</value>
+  </synonym>
+  <comment>Фреймворк многопоточного автоматического формирования связанных данных (АСД - автоматически создаваемые данные)</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Фреймворк многопоточного автоматического формирования связанных данных (АСД - автоматически создаваемые данные)</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.асд_Подсистема</picture>
+  </picture>
+  <content>Catalog.асд_Правила</content>
+  <content>InformationRegister.асд_ЖурналОшибок</content>
+  <content>InformationRegister.асд_СвязанныеОбъекты</content>
+  <content>CommonModule.асд_ОсновнойМодульСервер</content>
+  <content>EventSubscription.асд_ПриЗаписиСправочника</content>
+  <content>EventSubscription.асд_ОбработкаУдаленияПроведенияДокумента</content>
+  <content>EventSubscription.асд_ОбработкаПроведенияДокумента</content>
+  <content>Role.асд_ДоступКПодсистеме</content>
+  <content>CommonModule.асд_ПодпискиНаСобытия</content>
+  <content>CommonPicture.асд_Подсистема</content>
+  <content>Enum.асд_ДействияСПодчиненнымиОбъектами</content>
+  <content>Constant.асд_ИспользоватьАСД</content>
+</mdclass:Subsystem>
